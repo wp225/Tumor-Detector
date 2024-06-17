@@ -41,7 +41,7 @@ class  ModelTrainer:
         history = model.fit(
             train_df,
             validation_data=test_df,
-            epochs=10,  # Adjust epochs as needed
+            epochs=10,
         )
 
 
